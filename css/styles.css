@@ -68,7 +68,7 @@ ol {
 /* Прибрати підкреслення */
 a {
   text-decoration: none;
-  color: #2e2f42;
+  color: currentColor;
 }
 
 .container {
@@ -398,6 +398,10 @@ a {
   background-color: #404bbf;
 }
 
+.socials-link:focus {
+  background-color: #404bbf;
+}
+
 /* ========================================= */
 
 /* =============OUR PORTFOLIO================== */
@@ -510,14 +514,14 @@ a {
   padding: 100px 0;
 }
 
-/*.footer-container {
-    display: flex;
-    align-items: baseline;
+.footer-container {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-logo-container {
-    margin-right: 120px;
-}*/
+  margin-right: 120px;
+}
 
 .footer-logo {
   color: #4d5ae5;
