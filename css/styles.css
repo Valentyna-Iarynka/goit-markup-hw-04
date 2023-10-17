@@ -200,7 +200,7 @@ a {
 /* =============HERO================== */
 
 .hero {
-  background: #2e2f42;
+  background-color: #2e2f42;
   padding: 188px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -229,7 +229,7 @@ a {
 .hero-btn {
   cursor: pointer;
   border: none;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   color: #fff;
   font-family: inherit;
   font-size: 16px;
@@ -255,7 +255,7 @@ a {
 /* =============PRIORITY================== */
 
 .priority {
-  background: #fff;
+  background-color: #fff;
   padding: 120px 0;
 }
 
@@ -306,6 +306,7 @@ a {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  border: 1px solid var(--subtletext);
 }
 
 /* ========================================= */
@@ -361,7 +362,6 @@ a {
 .our-team-item-text {
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
@@ -470,8 +470,6 @@ a {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -542,7 +540,6 @@ a {
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
